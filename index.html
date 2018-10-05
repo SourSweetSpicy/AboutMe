@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+            <link rel="stylesheet" type="text/css" href="style/main.css">
+       
+    </head>
+    <body>
+    <h1>
+        <br/>
+     Jordan Cen
+        <br/>
+     岑家辉
+    </h1>
+    <ul>
+  <li><a id="dropdown-trigger">About Me</a></li>
+  <li><a href="subpage/projects.html">Projects</a></li>
+  <li><a href="subpage/resume.html">Resume</a></li>
+  <li><a href="subpage/contact.html">Contact</a></li>
+</ul>
+<div id="dropdown">
+    
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+</div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $( "#dropdown-trigger" ).click(function() {
+          $( "#dropdown" ).toggle();
+        });
+    </script>
+</html>
