@@ -9,11 +9,14 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
+    min-width: 80px;
 }
+
 
 li {
     float: left;
     border-right:1px solid black;
+    border-bottom: 0.4px solid black;
 }
 
 li a {
@@ -40,8 +43,8 @@ li a:hover:not(.active) {
 }
 
 #dropdown {
-    width: 200px;
-    height: 300px;
+    width: 95px;
+    height: 150px;
     background-color: white;
     display: none;
 }
