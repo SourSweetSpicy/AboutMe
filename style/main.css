@@ -25,6 +25,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    min-width: 80px;
 }
 
 li a:hover:not(.active) {
@@ -43,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 #dropdown {
-    width: 95px;
+    width: 114px;
     height: 150px;
     background-color: white;
     display: none;

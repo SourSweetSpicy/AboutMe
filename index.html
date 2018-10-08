@@ -26,8 +26,8 @@
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-        $( "#dropdown-trigger" ).click(function() {
-          $( "#dropdown" ).toggle();
+        $( "#dropdown-trigger" || "#dropdown" ).click(function() {
+          $( "#dropdown" || "#dropdown-trigger" ).toggle();
         });
     </script>
 </html>
