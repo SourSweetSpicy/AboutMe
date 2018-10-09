@@ -12,22 +12,22 @@
      岑家辉
     </h1>
     <ul>
-  <li><a id="dropdown-trigger">About Me</a></li>
+  <li><a class="active" id="dropdown-trigger">About Me</a></li>
   <li><a href="subpage/projects.html">Projects</a></li>
   <li><a href="subpage/resume.html">Resume</a></li>
   <li><a href="subpage/contact.html">Contact</a></li>
 </ul>
 <div id="dropdown">
   <ul>
-    <li><a href="#">Interests</a></li>
-    <li><a href="#">Habits</a></li>
+    <li><a style="list-style-type:none;display:block;" href="subpage/about_me/interest">Interests</a></li>
+    <li><a style="list-style-type:none;display:block;" href="subpage/about_me/habits">Habits</a></li>
   </ul>
 </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-        $( "#dropdown-trigger" || "#dropdown" ).click(function() {
-          $( "#dropdown" || "#dropdown-trigger" ).toggle();
+        $( "#dropdown-trigger").click(function() {
+          $( "#dropdown" ).toggle();
         });
     </script>
 </html>
