@@ -11,23 +11,22 @@
         <br/>
      岑家辉
     </h1>
-    <ul>
-  <li><a class="active" id="dropdown-trigger">About Me</a></li>
+    <ul style="list-style-type: none;">
+      <li>
+      <div class="dropdown active">
+        <a id="dropbtn">About Me</a>
+        	<div class="dropdown-content">
+  <a href="subpage/about_me/interest.html">Interests</a>   <a href="subpage/about_me/habits.html">Habits</a>
+     		</div>
+    </div>
+  </li>
   <li><a href="subpage/projects.html">Projects</a></li>
   <li><a href="subpage/resume.html">Resume</a></li>
   <li><a href="subpage/contact.html">Contact</a></li>
 </ul>
-<div id="dropdown">
-  <ul>
-    <li><a style="list-style-type:none;display:block;" href="subpage/about_me/interest">Interests</a></li>
-    <li><a style="list-style-type:none;display:block;" href="subpage/about_me/habits">Habits</a></li>
-  </ul>
-</div>
+        
+      <h2>Hello, my name is Jordan Cen</h2>
+      <p style="margin-left: 100px; margin-right: 100px; font-size: 25px">	Cen sounds like a deformation of the common last name of Chen, but I assure you it is spelled correctly. Anyway, I'm a sophomore student at Design Tech High School (10th grade) </p>
+
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $( "#dropdown-trigger").click(function() {
-          $( "#dropdown" ).toggle();
-        });
-    </script>
 </html>
