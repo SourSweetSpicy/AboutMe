@@ -7,7 +7,6 @@ h1 {
     font-size: 50px;
     text-align: center;
     float: center;
-    max-width: 500px;
 }
 h2 {
     text-align: center;
@@ -50,6 +49,11 @@ li a:hover:not(.active) {
     padding-top: 14px;
     padding-bottom: 14px;
     text-decoration: none;
+}
+
+.nameplate {
+    width:50%;
+    padding-left:25%
 }
 
 .active {
